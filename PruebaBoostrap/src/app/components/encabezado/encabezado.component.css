@@ -1,0 +1,32 @@
+.portada{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:end;
+    max-height: 400px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#Yo{
+    z-index: 20;
+    margin-top: 70%;
+    margin-bottom: 5%;
+    height:100px;
+}
+#Descripcion{
+    text-align: left;
+    vertical-align:text-top;
+}
+#FotoDescripcion{
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 100%;
+}
+#TextoInicial {
+    color: white;
+    padding-top:15px;
+    padding-left: 10px;
+    margin-left: 0%;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    float: left;
+}
