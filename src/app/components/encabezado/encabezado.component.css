@@ -1,27 +1,35 @@
-.portada{
+#baner{
     position: relative;
-    display:flex;
-    justify-content: center;
-    align-items:end;
-    max-height: 400px;
-    background-size: 100% 100%;
+    height:calc(108vh - 50px);
+    widows: 100%;
+    background-image: url(../IMG/6.1.jfif);
+    background-position: center;
     background-repeat: no-repeat;
-}
-#Yo{
-    z-index: 20;
-    margin-top: 70%;
-    margin-bottom: 5%;
-    height:100px;
-}
-#Descripcion{
-    text-align: left;
-    vertical-align:text-top;
-}
-#FotoDescripcion{
+    background-size: cover ;
+  }
+  
+  #Ficha{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+  } 
+  #Yo{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #FotoDescripcion{
     border-bottom-left-radius: 100%;
     border-top-left-radius: 100%;
-}
-#TextoInicial {
+  }
+  #TextoInicial {
     color: white;
     padding-top:15px;
     padding-left: 10px;
@@ -29,4 +37,4 @@
     font-family:'Times New Roman', Times, serif;
     font-size:medium;
     float: left;
-}
+  }
